@@ -127,6 +127,9 @@ ul {
 .contact-link:hover, .contact-link:focus {
     color: var(--blue-theme);
 } 
+.st-act {
+    color: var(--blue-theme);
+}
 
 
 /* hero styles */
@@ -237,7 +240,6 @@ ul {
     justify-content: center;
     align-items: center;
     margin-bottom: 8px;
-    width: 264px;
     height: 112px;
 }
 .icon-sk {
@@ -350,15 +352,15 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--blue-theme);
+    border-radius: 50%
 }
 .soc-media-item {
     display: flex;
     align-items: center;
     justify-content: center;  
-    background-color: var(--blue-theme);
     width: 40px;
     height: 40px;
-    border-radius: 50%
 }
 .sm-icon-staff {
     fill: var(--staff-bgc);
@@ -460,20 +462,21 @@ footer h3 {
 .sm-link-footer {
     width: 100%;
     height: 100%;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
 }
  
 .sm-item-footer {
     display: flex;
     align-items: center;
     justify-content: center;    
-    background-color:rgba(255, 255, 255, 0.1);
     width: 40px;
     height: 40px;
-    border-radius: 50%;
 }
-.sm-item-footer:hover {
-    background: rgba(49, 208, 170, 1);
 
+.sm-link-footer:hover {
+    background: rgba(49, 208, 170, 1);
+    border-radius: 50%;
 }
 .soc-media-icon {
   padding: 8px;
@@ -491,7 +494,9 @@ footer h3 {
     padding-top: 96px;
     padding-bottom: 120px;
 }
-
+.port-act {
+    color: var(--blue-theme);
+}
 .filter-list {
     display: flex;
     justify-content: center;    
@@ -507,9 +512,9 @@ footer h3 {
     letter-spacing: 0.04em;
     color: var(--blue-theme);
     background-color: #F4F4FD;
-    cursor: pointer;
-
+    cursor: pointer
 }
+
 .filter-btn:hover, .filter-btn:active {
     color: var(--standart-light);
     background-color: var(--blue-theme);
