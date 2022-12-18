@@ -399,23 +399,22 @@ ul {
     color:  var(--icon-gr);
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    margin-right: 24px;
     align-items: center;
     justify-content: center;
 }
  .cust-link:hover {
     border-color: var(--blue-theme); 
     color: var(--blue-theme);   
- }
+}
 
  .cust-icon {
     padding: 16px 32px;
     fill: currentColor;
  }
- 
-.customers-item:last-child {
-    margin-right: 0;
-}
+
+.customers-item:not(:last-child) {
+    margin-right: 24px;
+ }
 
 /* footer styles */
  
